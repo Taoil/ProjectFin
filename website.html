@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>Taoil, Tissan Mae B.</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+	<nav>
+			<div class="logo"><img src="images/cityhigh.png"></div>
+			<div class="nav-links"></div>
+			<ul>
+				<li><a href="history.html"><b>History</b></a>
+				<li><a href="hymn.html"><b>Hymns</b></a>
+				<li><a href="programs.html"><b>Curricula & programs</b></a>
+				<li><a href="Services.html"><b>Services</b></a>
+				<li><a href="#"><b>Home</b></a></li>
+			</ul>
+			<div>
+		<img src="images/years.jpg" class="years">
+	</div>
+	</div>
+</nav>
+	<div class="information">
+	<div class= "overlay"></div>
+			<img src="images/city.jpg" width="200" height="250" class="city">
+		<div id="circle">
+			<div class="feature two"><img src="images/city.jpg">
+				<p><b>JUNIOR HIGH</b></p>
+				<p><b>SENIOR HIGH</b></p>
+			</div>
+			<div class="feature one"><img src="images/pine.png">
+				<p><b>BAGUIO CITY</b></p> 
+				<p><b>NATIONAL HIGH SCHOOL</b></p>
+			</div>
+			<div class="feature three"><img src="images/bulb.png">
+				<p><b>EDUCATION</b></p> 
+				<p><b>GAIN MORE KNOWLEDGE</b></p>
+			</div>
+			<div class="feature four"><img src="images/uniform.jpg">
+				<p><b>Gov. Pack Rd,</b></p> 
+				<p><b>Baguio, Benguet</b></p>
+			</div>
+		</div>
+	</div>
+	<div class="controls">
+		<img src="images/worra.png" id="upBtn">
+		<h2>About</h2>
+		<img src="images/worra.png" id="downBtn">
+	</div>
+	
+	<script>
+		var circle = document.getElementById("circle");
+		var upBtn = document.getElementById("upBtn");
+		var downBtn = document.getElementById("downBtn");
+		var rotateValue = circle.style.transform;
+		var rotateSum;
+		
+		upBtn.onclick = function()
+		{
+			rotateSum = rotateValue + "rotate(-90deg)";
+			circle.style.transform = rotateSum;
+			rotateValue = rotateSum;
+		}
+		downBtn.onclick = function()
+		{
+			rotateSum = rotateValue + "rotate( 90deg)";
+			circle.style.transform = rotateSum;
+			rotateValue = rotateSum;
+		}
+	</script>
+</body>
+</html>

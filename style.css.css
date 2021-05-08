@@ -1,0 +1,445 @@
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	position:relative;
+	overflow: hidden;
+	background: linear-gradient(white);
+}
+nav{
+	width: 80%;
+	position: sticky;
+	margin: 20px auto;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	flex-basis: 20%;
+}
+.logo img{
+	width: 100px;
+}
+ul{
+	list-style-type: none;
+	margin: 0 115px;
+	padding: 0;
+	overflow: hidden;
+	background-color: maroon;
+}
+li{
+	float: right;
+}
+li a{
+	display: block;
+	padding: 20px 18px;
+	margin: 0 px;
+	color: white;
+	text-decoration: none;
+}
+.information{
+	width: 625px;
+	height: 625px;
+	position: absolute;
+	top: 50%;
+	left: -10%;
+	transform: translateY(-50%);
+}
+#circle{
+	width: 625px;
+	height: 625px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	transform: rotate(0deg);
+	transition: 1s;
+}
+.feature img{
+	width: 70px;
+}
+.feature{
+	position: absolute;
+}
+.one{
+	top: 250px;
+	right: 0px;
+	color: maroon;
+}
+.two{
+	top: 30px;
+	left: 350px;
+	transform: rotate(270deg);
+	color: maroon;
+}
+.three{
+	bottom: 250px;
+	left: 0px;
+	transform: rotate(-180deg);
+	color: maroon;
+}
+.four{
+	bottom: 50px;
+	right: 300px;
+	transform: rotate(-270deg);
+	color: maroon;
+}
+.city{
+	width: 200px;
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	transform: translateY(-50%);
+	z-index: 1;
+}
+.controls{
+	position: absolute;
+	right: 10%;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+}
+.controls h3{
+	margin: 15px 0;
+	color: #fff;
+}
+#upBtn{
+	width: 15px;
+	cursor: pointer;
+}
+#downBtn{
+	width: 15px;
+	cursor: pointer;
+	transform: rotate(180deg);
+}
+.overlay{
+	width: 0;
+	height: 0;
+	border-top: 350px solid maroon;
+	border-right: 400px solid white;
+	border-bottom: 300px solid maroon;
+	border-left: 300px solid maroon;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.years{
+	align-items: center;
+	position: absolute;
+	float: left;
+	left: 50%;
+	bottom: 100%;
+	top: 150%;
+}
+.years img{
+	width: 350px;
+	height: 300px;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  section {
+    width: 100%;
+  }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 45px;
+  background-color: white;
+}
+
+/* Style the header */
+header {
+  text-align: center;
+  width: 200px;
+  float: left;
+  margin: 20px;
+  background-image: url("images/cityhigh.png");
+}
+
+/* Change color on hover */
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+section {
+
+  float: none;
+  width: 90%;
+  padding: 20px;
+  resize: both;
+  ocerflow: auto;
+  clear: both;
+  border-style: solid;
+  margin: 60px;
+
+#section1{
+    border: 2px solid black;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#section2{
+    border: 2px solid black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#section3{
+    border: 2px solid black;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#section4{
+    border: 2px solid black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+#section5{
+    border: 2px solid black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+#section6{
+    border: 2px solid black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  section {
+    width: 100%;
+  }
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 45px;
+  background-color: white;
+}
+
+/* Style the header */
+header {
+  text-align: center;
+  width: 200px;
+  float: left;
+  margin: 20px;
+  background-image: url("images/cityhigh.png");
+}
+
+/* Change color on hover */
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+section {
+
+  float: none;
+  width: 90%;
+  padding: 20px;
+  resize: both;
+  ocerflow: auto;
+  clear: both;
+  border-style: solid;
+  margin: 60px;
+
+#section1{
+    border: 2px solid black;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#section2{
+    border: 2px solid black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#section3{
+    border: 2px solid black;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#section4{
+    border: 2px solid black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+#section5{
+    border: 2px solid black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+#section6{
+    border: 2px solid black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  section {
+    width: 100%;
+  }
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 45px;
+  background-image: url("images/dream.jpg");
+}
+
+/* Style the header */
+header {
+  text-align: center;
+  width: 200px;
+  float: left;
+  margin: 20px;
+  background-image: url("images/cityhigh.png");
+}
+
+/* Change color on hover */
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+section {
+
+  float: none;
+  width: 90%;
+  padding: 20px;
+  resize: both;
+  ocerflow: auto;
+  clear: both;
+  border-style: solid;
+  margin: 60px;
+
+#section1{
+    border: 2px solid black;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#section2{
+    border: 2px solid black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#section3{
+    border: 2px solid black;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#section4{
+    border: 2px solid black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  section {
+    width: 100%;
+  }
+ * {
+  box-sizing: border-box;
+}
+
+body {
+ background-image: url("images/dream.jpg");
+
+.column2 {
+  float: left;
+  width: 32%;
+  padding: 0 20px;
+  color: white;
+}
+.column3 {
+  float: left;
+  width: 32%;
+  color: white;
+  padding: 0 20px;
+}
+.column4 {
+  float: left;
+  width: 32%;
+  padding: 0 20px;
+  color: white;
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .leftcolumn {
+    width: 80%;
+    padding: 0;
+  }
+  
+  
+    .column2{
+  width: 80%;
+  padding: 0;
+  }
+  
+   .column3{
+  width: 80%;
+  padding: 0;
+  }
+  
+   .column4{
+  width: 80%;
+  padding: 0;
+  }
+  
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  
+  .column2{
+  width: 100%;
+  padding: 0;
+  }
+  
+  .column3{
+  width: 100%;
+  padding: 0;
+  }
+  
+  .column4{
+  width: 100%;
+  padding: 0;
+  }
+ @media only screen and (max-width:500px) {
+  /* For mobile phones: */
